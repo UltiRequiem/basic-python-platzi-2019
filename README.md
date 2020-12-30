@@ -11,7 +11,7 @@ Python es un lenguaje de programación creado por [Guido Van Rossum](https://en.
  - Recargado: viene con muchas librerías por defecto.
  ##### Editor Recomendado: VSCode o NVim si te quieres enfocar a varios lenguajes y PyCharm si solo vas a usar Python
 
-#Instalación
+# Instalación
 Existen dos versiones de Python que tienen gran uso actualmente, Python 2.x y Python 3.x, para este curso puedes utilizar cualquiera de las dos, pero te recomendamos usar una versión 3.x
 
 #### Para instalar Python solo debes seguir los pasos dependiendo del sistema operativo que tengas instalado.
