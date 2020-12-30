@@ -58,5 +58,7 @@ Si eres usuario habitual de linux también puedes [descargar los archivos](https
 
 
 
-#### Pagina Personal de Facundo Nicolas: https://aroesti.me/
+#### Pagina Personal de David Aroesti: https://aroesti.me/
+#### Twitter de David Aroesti: https://twitter.com/jdaroesti
+#### Linkedink de David Aroesti: https://mx.linkedin.com/in/jdaroesti
 
