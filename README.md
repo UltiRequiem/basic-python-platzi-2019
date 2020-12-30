@@ -58,7 +58,8 @@ Si eres usuario habitual de linux también puedes [descargar los archivos](https
 
 # Datos del Profesor:
 
-#### Pagina Personal de David Aroesti: https://aroesti.me/
-#### Twitter de David Aroesti: https://twitter.com/jdaroesti
-#### Linkedink de David Aroesti: https://mx.linkedin.com/in/jdaroesti
+#### [Perfil de Platzi de David Aroesti](https://platzi.com/p/jdaroesti/)
+#### [Pagina Personal de David Aroesti](https://aroesti.me/)
+#### [Twitter de David Aroesti](https://twitter.com/jdaroesti)
+#### [Linkedink de David Aroesti](https://mx.linkedin.com/in/jdaroesti)
 
