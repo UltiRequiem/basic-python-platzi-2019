@@ -56,7 +56,7 @@ Si el comando arroja un error quiere decir que no lo tienes instalado, en ese ca
 
 Si eres usuario habitual de linux también puedes [descargar los archivos](https://www.python.org/downloads/source/) para instalarlo manualmente.
 
-
+# Datos del Profesor:
 
 #### Pagina Personal de David Aroesti: https://aroesti.me/
 #### Twitter de David Aroesti: https://twitter.com/jdaroesti
