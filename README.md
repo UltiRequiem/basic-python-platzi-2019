@@ -57,8 +57,8 @@ Si el comando arroja un error quiere decir que no lo tienes instalado, en ese ca
 Si eres usuario habitual de linux también puedes [descargar los archivos](https://www.python.org/downloads/source/) para instalarlo manualmente.
 
 # Paginas de Interes:
-[Python2orPython3 - Python Wiki](https://wiki.python.org/moin/Python2orPython3)
-[Not Acceptable!](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+ - [Python2orPython3 - Python Wiki](https://wiki.python.org/moin/Python2orPython3)
+ - [Not Acceptable!](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
 
 # Datos del Profesor:
 
