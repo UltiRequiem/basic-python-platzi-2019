@@ -1,4 +1,4 @@
-# Curso Basico de Python por Facundo Nicolas en Platzi
+# Curso Basico de Python por David Aroesti en Platzi
 
 ### ¿Qué es Python?
 Python es un lenguaje de programación creado por [Guido Van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
@@ -58,5 +58,5 @@ Si eres usuario habitual de linux también puedes [descargar los archivos](https
 
 
 
-#### Pagina Personal de Facundo Nicolas: https://facundonicolas.com/
+#### Pagina Personal de Facundo Nicolas: https://aroesti.me/
 
