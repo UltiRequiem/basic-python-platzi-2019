@@ -1,0 +1,117 @@
+
+.PastDue {
+  background: #d53f3a;
+  padding: 0.75rem;
+  color: #fff;
+  font-size: 14px;
+}
+.PastDue.is-success {
+  background: #e3f7c0;
+  color: #5a7827;
+}
+.PastDue.is-success .icon-check {
+  margin-right: 0.25rem;
+}
+.PastDue .u-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.PastDue-link,
+.PastDue a {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+.PastDue .icon-warning {
+  margin-right: 0.5rem;
+}
+.PastDueCount {
+  padding: 2px;
+  margin: 0 0 0 0.25rem;
+  background: rgba(255,255,255,0.25);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 1;
+}
+.PastDueCount .is-hour,
+.PastDueCount .is-min,
+.PastDueCount .is-seg {
+  display: none;
+}
+.PastDueCount .is-day span {
+  margin-left: 2px;
+}
+.ExpirationPaypal {
+  background: #f2e5d8;
+  padding: 0.75rem;
+  color: #ff7f38;
+  font-size: 14px;
+}
+.ExpirationPaypal .u-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.ExpirationPaypal-link,
+.ExpirationPaypal a {
+  text-decoration: underline;
+  color: #ff7f38;
+  font-weight: bold;
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+.ExpirationPaypal .icon-warning {
+  margin-right: 0.5rem;
+}
+.ExpirationPaypal-count {
+  padding: 2px;
+  margin: 0 0 0 0.25rem;
+  background: rgba(255,127,56,0.25);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 1;
+}
+.ExpirationPaypal-count .is-hour,
+.ExpirationPaypal-count .is-min,
+.ExpirationPaypal-count .is-seg {
+  display: none;
+}
+.ExpirationPaypal-count .is-day span {
+  margin-left: 2px;
+}
+module.exports = (__webpack_require__(2))(12);
