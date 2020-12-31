@@ -63,6 +63,12 @@ Si eres usuario habitual de linux también puedes [descargar los archivos](https
  - [Not Acceptable!](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
  - [Documentacion de Python](https://docs.python.org/3)
  - [Principales Diferencias entre Python 2 y Python 3](https://www.pythonmania.net/es/2016/02/29/las-principales-diferencias-entre-python-2-y-3-con-ejemplos/) 
+ - [Strings](https://docs.python.org/3.6/library/stdtypes.html#string-methods) 
+ - [Try Statement](https://docs.python.org/3.5/reference/compound_stmts.html#try)
+ - [Installation of PIP](https://pip.pypa.io/en/stable/installing/) 
+ - [xkcd](https://xkcd.com/)
+ - [Install an SDK for App Engine](https://cloud.google.com/appengine/downloads)
+ - [Jinja](https://jinja.palletsprojects.com/en/2.9.x/)
 
 # Datos del Profesor:
 
