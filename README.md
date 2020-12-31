@@ -56,10 +56,12 @@ Si el comando arroja un error quiere decir que no lo tienes instalado, en ese ca
 
 Si eres usuario habitual de linux también puedes [descargar los archivos](https://www.python.org/downloads/source/) para instalarlo manualmente.
 
-# Paginas de Interes:
+# Archivos y Enlaces:
+ - [Pagina Oficial de Python](https://python.org)
  - [Python 2 or Python 3 - Python Wiki](https://wiki.python.org/moin/Python2orPython3)
  - [Not Acceptable!](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
  - [Documentacion de Python](https://docs.python.org/3)
+ - [Principales Diferencias entre Python 2 y Python 3](https://www.pythonmania.net/es/2016/02/29/las-principales-diferencias-entre-python-2-y-3-con-ejemplos/) 
 
 # Datos del Profesor:
 
