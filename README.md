@@ -1,10 +1,11 @@
 # Curso Basico de Python por David Aroesti en Platzi
-
-## ¿Qué es Python?
+Este curso es parte de la ruta de Inteligencia Artificial MinTIC - Icetex, en donde entenderas qué es la inteligencia Artificial y las partes que la componen. 
+Recomiendo mucho este curso junto a [este](https://github.com/ChromeOwO/Curso-Basico-de-Python-Platzi) si es que quieres aprender mas acerca de Python,todos estos cursos se encuentran en Platzi 💚.
+# ¿Qué es Python?
 Python es un lenguaje de programación creado por [Guido Van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
 , con una sintaxis muy limpia, ideado para enseñar a la gente a programar bien. Se trata de un lenguaje interpretado o de script.
 
-### Ventajas:
+## Ventajas:
  - Legible: sintaxis intuitiva y estricta.
  - Productivo: ahorra mucho código.
  - Portable: para todo sistema operativo.
