@@ -59,6 +59,7 @@ Si eres usuario habitual de linux también puedes [descargar los archivos](https
 # Paginas de Interes:
  - [Python 2 or Python 3 - Python Wiki](https://wiki.python.org/moin/Python2orPython3)
  - [Not Acceptable!](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+ - [Documentacion de Python](https://docs.python.org/3)
 
 # Datos del Profesor:
 
