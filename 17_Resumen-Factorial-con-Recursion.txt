@@ -1,0 +1,44 @@
+Resumiendo la clase:
+
+Este paradigma busca resolver los problemas metiéndose en otro llamado funcional: todo son funciones matemáticas. ¿Qué tiene de distinto esto con lo que venimos viendo? Que en este caso no vamos a usar ciclos, ya que al fin y al cabo se podrían imitar con recursiones ¿no?.
+Para que esto tenga sentido y funcione tienen que pasar dos cosas:
+
+f tiene que tener un “caso base”, es decir, una condición que haga frenar la recursión. Es un conjunto de valores, tales que cuando f los recibe, retornará una respuesta sin volver a realizar recursión.
+f debería tener un “caso recursivo”, es decir, una condición que le haga seguir haciendo recursión (hasta eventualmente - si las cosas están bien hechas - llegar a un caso base y así terminar).
+Veamos un ejemplo:
+f(x) = 0 si x = 0
+f(x) = x + f(x-1) si x ≥ 1
+
+En este caso f es recursiva porque vemos que f se llama a sí misma en el segundo caso.
+¿Qué pasa si hago f(0)? Se fija cómo es el x de entrada y entiende que tiene que entrar por el primer caso, entonces simplemente retorna 0 (la única ejecución de f que hubo) y termina con ese valor.
+¿Qué pasa si hago f(1)? Se fija cómo es x y esta vez entra por el segundo caso. Luego hay que retornar 1 + f(1-1), o sea 1 + f(0). Pero el programa no permite devolver algo no calculado, por lo cual, antes de poder hacer return debemos llamar a f(0) y resolver. Luego de eso, f(0) retorna 0 y nuestra cuenta 1 + f(0) se convirtió en 1 + 0 = 1, por lo tanto podemos retornar eso. Finalmente, f(1) = 1.
+¿Qué pasa si hago f(4)? El orden en el que se reducen los términos es: f(4) = 4 + f(3) = 4 + (3 + f(2)) = 4 + (3 + (2 + f(1))) = 4 + (3 + (2 + (1 + f(0)))) = 4 + (3 + (2 + (1 + 0)))) = 4 + (3 + (2 + 1)) = 4 + (3 + 3) = 4 + 6 = 10.
+
+Nota: Si los casos base están mal programados o nunca se alcanzan, la función f puede nunca terminar!
+
+Les dejo un par de ejercicios para practicar este nuevo paradigma. Los ejercicios estan ordenados de menor dificultad a mayor deficultad, se entiende que si se hace el último ejercicio correctamente el individuo también es capaz de realizar todos los anteriores.
+
+Implementar una función recursiva que tome n y devuelva n (calculado de forma recursiva).
+Pista: ¿cuántas veces tengo que sumar 1 para obtener n?
+
+Implementar una función recursiva que dado n, devuelva el término n-ésimo de Fibonacci.
+Fib0 = 0
+Fib1 = 1
+Fibn = Fibn-1 + Fibn-2 (para n ≥ 2)
+Pista: puede haber más de un caso base.
+
+Implementar una función recursiva que dado un x y un n, calcule xn.
+
+Implementar una función recursiva que dado un booleano p y un entero n, devuelva el resultado de negar n veces a p.
+
+Implementar una función recursiva que dado un n sume todos los naturales desde 1 hasta n con la siguiente condición: los pares deberán restar y los impares no.
+Por ejemplo: 1 - 2 + 3 - 4 + 5 - 6 + 7 … hasta n (que su signo dependerá de si es par o no).
+
+Implementar una función recursiva que dado a y b, realice la multiplicación entre a y b pero sólo usando sumas.
+Pista: ab se puede ver como sumar a veces b (o viceversa).
+
+Implementar una función recursiva que indique, dados a y b, si b divide a a (o sea, si hay resto cero al hacer a/b).
+Pista: ¿Cómo hacemos la división con restas?
+
+Implementar una función recursiva que dado un número n y un número auxiliar aux (que lo pueden usar para lo que quieran), indique si n es primo.
+Pista: Usar el ejercicio 8 y acordarse que un número es primo si sólo lo dividen 1 y él mismo (o visto de otra forma, si no lo dividen 2, …, (n-1) ).
