@@ -5,13 +5,11 @@ def main():
     print(area)
 
 
-if __name__=='__main__':
+if __name__ == "__main__":
     main()
 
 
-
-
-''' 
+""" 
 Las variables nos permiten guardar valores, permitiéndonos reutilizarlos en diferentes partes del código y haciendo nuestros programas más legibles.
 
 El valor que contiene una variable puede ser reasignado, significa que podemos asignarle diferentes valores a una misma variable.
@@ -31,4 +29,4 @@ Recuerda:
 
 Todos los programas de Python deben guardarse con extensión .py
 Para darle soporte a acentos en nuestros programas debemos usar la línea # -*- coding: utf-8 -*-
-'''
+"""

@@ -1,4 +1,4 @@
-import turtle,random
+import turtle, random
 
 w = turtle.Screen()
 t = turtle.Turtle()
@@ -7,16 +7,18 @@ numNivel = 13
 largoRama = 120
 angulo = 17
 
+
 def cambioColor():
-    colors=['blue' , 'red', 'orange', 'purple']
+    colors = ["blue", "red", "orange", "purple"]
     t.pencolor(random.choice(colors))
+
 
 def dibujaArbol(largoRama, Nivel):
 
     cambioColor()
-    width = t.width()  
+    width = t.width()
 
-    t.width(width * 3.0 / 4.0)  
+    t.width(width * 3.0 / 4.0)
 
     largoRama = 3.0 / 4.0 * largoRama
 
@@ -34,22 +36,24 @@ def dibujaArbol(largoRama, Nivel):
     t.back(largoRama)
     t.left(angulo)
 
-    t.width(width)  
-	
+    t.width(width)
+
+
 def main():
-	t.speed("fastest")
-	
-	t.left(90)
-	t.width(numNivel) #
-	t.penup()
-	t.back(largoRama)
-		
-	t.pendown()
-	t.forward(largoRama)
+    t.speed("fastest")
 
-	dibujaArbol(largoRama, 2)
+    t.left(90)
+    t.width(numNivel)  #
+    t.penup()
+    t.back(largoRama)
 
-	turtle.done()
+    t.pendown()
+    t.forward(largoRama)
+
+    dibujaArbol(largoRama, 2)
+
+    turtle.done()
+
 
 if __name__ == "__main__":
-	main()
+    main()

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 def is_prime(number):
     if number < 2:
         return False
@@ -16,14 +17,14 @@ def is_prime(number):
 
 
 def run():
-    number = int(raw_input('Escribe un numero: '))
+    number = int(raw_input("Escribe un numero: "))
     result = is_prime(number)
 
     if result is True:
-        print('Tu numero es primo')
+        print("Tu numero es primo")
     else:
-        print('Tu numero NO es primo')
+        print("Tu numero NO es primo")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()

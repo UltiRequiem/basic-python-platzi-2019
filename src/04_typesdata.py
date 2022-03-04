@@ -2,17 +2,17 @@ def TypeOfData():
     print(type(2))
     print(type(2.0))
     print(type(2.3))
-    print(type('Platzi'))
+    print(type("Platzi"))
     print(type(False))
     print(type(True))
-    print(type(3==5))
-    print(type(5-9))
+    print(type(3 == 5))
+    print(type(5 - 9))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     TypeOfData()
 
-'''
+"""
 Tipos de datos en Python
 ¿En qué orden se evalúan las matemáticas operaciones complejas?
 
@@ -47,4 +47,4 @@ type(2) - retorna int
 type('Hola') - retorna str
 
 Recuerda que tu código debe ser claro, para permitir que otros programadores lo puedan leer.
-'''
+"""

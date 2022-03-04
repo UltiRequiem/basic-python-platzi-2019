@@ -1,7 +1,9 @@
 # Modelando un Objeto
 
+
 class Lamp:
-    _LAMPS = ['''
+    _LAMPS = [
+        """
           .
      .    |    ,
       \   '   /
@@ -10,14 +12,15 @@ class Lamp:
          \ /
         _|=|_
        |_____|
-    ''',
-    '''
+    """,
+        """
          ,-.
         (   )
          \ /
         _|=|_
        |_____|
-    ''']
+    """,
+    ]
 
     def __init__(self, _is_turned_on):
         self._is_turned_on = _is_turned_on
@@ -36,11 +39,14 @@ class Lamp:
         else:
             print(self._LAMPS[1])
 
+
 def run():
-    lamp = Lamp(_is_turned_on = False)
+    lamp = Lamp(_is_turned_on=False)
 
     while True:
-        command = str.lower(input('''
+        command = str.lower(
+            input(
+                """
         
         ¿What you want to Do?
         
@@ -49,11 +55,13 @@ def run():
         [S]alir
         
         
-        '''))
+        """
+            )
+        )
 
-        if command == 'p':
+        if command == "p":
             lamp.turn_on()
-        elif command == 'a':
+        elif command == "a":
             lamp.turn_off()
         else:
             break

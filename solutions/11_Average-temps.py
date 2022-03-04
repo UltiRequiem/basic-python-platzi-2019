@@ -10,9 +10,9 @@ def average_temps(temps):
     return sum_of_temps / len(temps)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     temps = [21, 24, 24, 22, 20, 23, 24]
 
     average = average_temps(temps)
 
-    print('La temperatura promedio es: {}'.format(average))
+    print("La temperatura promedio es: {}".format(average))
